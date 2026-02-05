@@ -23,7 +23,6 @@ class Fighter(Entity):
     def move(self, inputs):
         if inputs[pygame.K_a]:
             self._x -= self._speed
-
         elif inputs[pygame.K_d]:
             self._x += self._speed
 

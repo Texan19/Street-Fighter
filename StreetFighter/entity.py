@@ -7,7 +7,7 @@ date: 02/04/26
 import pygame
 
 class Entity:
-    def __init__(self, name=None, x=0, y=0, speed=10, hitPoints=0, damageOutput=0, jumpHeight=0):
+    def __init__(self, name=None, x=0, y=0, speed=10, hitPoints=0, damageOutput=0, jumpHeight=100):
         self._name = name
         self._x = x
         self._y = y
